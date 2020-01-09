@@ -1,0 +1,10 @@
+class LinearRegression:
+  def _init_():
+    import numpy as np
+    import pandas as pd
+    from sklearn.linear_model import LinearRegression
+    import matplotlib.pyplot as plt
+    from sklearn import train_test_split
+    
+  def read_csv(file):
+    self.df = pd.read_csv(file)
